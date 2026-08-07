@@ -35,7 +35,7 @@ const TABS = [
   { id: 'business',   label: '🏢 US Business Tax' },
   { id: 'itin',       label: '🪪 ITIN Services' },
   { id: 'fbar',       label: '📊 FBAR / FATCA' },
-  { id: 'india',      label: '🇮🇳 Indian Tax' },
+
 ];
 
 export default function Services() {
@@ -112,7 +112,7 @@ export default function Services() {
                       </li>
                     ))}
                   </ul>
-                  <Link to="/contact" className="block text-center bg-gold text-navy font-bold py-3 rounded-xl hover:bg-gold-light transition-colors no-underline">Get Free Quote</Link>
+                  <Link to="/contact" className="block text-center bg-gold text-navy font-bold py-3 rounded-xl hover:bg-gold-light transition-colors no-underline">Contact Us</Link>
                 </div>
               </div>
             </div>
@@ -212,34 +212,7 @@ export default function Services() {
             </div>
           )}
 
-          {/* ── INDIA ── */}
-          {tab==='india' && (
-            <div>
-              <div className="section-tag">Indian Tax</div>
-              <h2 className="text-navy font-display text-3xl font-bold mb-2">Indian Tax Filing Services</h2>
-              <p className="text-gray-600 text-sm leading-relaxed max-w-2xl mb-10">UsTaxFiler®, with a processing center established in India, also files Indian Tax Returns for its US tax clients who are required to file tax returns in India. An individual taxpayer who is either a full year non-resident / part year resident of India during the tax year may still need to file.</p>
-              <div className="grid grid-cols-1 lg:grid-cols-5 gap-12">
-                <div className="lg:col-span-3">
-                  <h4 className="text-navy font-semibold mb-4 font-body">Situations that require filing tax returns in India:</h4>
-                  <ul className="space-y-0 list-none p-0">
-                    {INDIA_LIST.map(s=>(
-                      <li key={s} className="flex items-start gap-3 py-3.5 border-b border-gray-100 text-sm text-gray-700">
-                        <span className="text-gold font-bold flex-shrink-0 mt-0.5">✓</span>{s}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-                <div className="lg:col-span-2">
-                  <div className="bg-gradient-to-br from-navy to-navy-light rounded-2xl p-8 text-white">
-                    <div className="text-4xl mb-4">🇮🇳</div>
-                    <h4 className="font-display text-xl font-bold mb-3">NRI Tax Experts</h4>
-                    <p className="text-white/65 text-sm leading-relaxed mb-6">Our team specializes in handling dual-country tax obligations for US-based Indians, ensuring full compliance in both countries.</p>
-                    <Link to="/contact" className="block text-center bg-gold text-navy font-bold py-3 rounded-xl hover:bg-gold-light transition-colors no-underline">Get Started</Link>
-                  </div>
-                </div>
-              </div>
-            </div>
-          )}
+         
 
           {/* Bottom CTA */}
           <div className="mt-20 bg-slate-50 rounded-3xl p-12 text-center">

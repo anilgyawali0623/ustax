@@ -15,9 +15,9 @@ export default function Navbar() {
 
         {/* Logo */}
         <Link to="/" className="flex items-center gap-2 no-underline" onClick={close}>
-          <span className="text-2xl">🦅</span>
+       
           <span className="font-display font-bold text-xl text-navy">
-            US<span className="text-gold">Tax</span>Filer
+          Yoga<span className="text-gold">Tax</span>Solution
           </span>
         </Link>
 
@@ -53,7 +53,6 @@ export default function Navbar() {
               <div className="absolute top-full left-0 bg-white border border-gray-100 rounded-xl shadow-card-lg min-w-[220px] py-2 z-50 animate-[fadeDown_0.15s_ease]">
                 <Link to="/services#individual" className="dropdown-link" onClick={close}>US Individual Tax Services</Link>
                 <Link to="/services#business" className="dropdown-link" onClick={close}>US Business Tax Services</Link>
-                <Link to="/services#india" className="dropdown-link" onClick={close}>Indian Tax Services</Link>
               </div>
             )}
           </li>

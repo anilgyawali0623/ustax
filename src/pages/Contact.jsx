@@ -68,10 +68,10 @@ export default function Contact() {
 
                 <div className="space-y-7">
                   {[
-                    { icon:'📍', label:'Office Address', val:<>US Tax Filer<br/>Hitech City - JNTU Road<br/>Manjeera Commercial<br/>Hyderabad, Telangana - 500072</> },
-                    { icon:'📞', label:'US Phone', val:<a href="tel:+14704448100" className="text-gold hover:text-gold-light no-underline">+1-470-444-8100</a> },
-                    { icon:'📞', label:'India Phone', val:<><a href="tel:+919121157586" className="text-gold hover:text-gold-light no-underline">+91 9121157586</a><br/><a href="tel:+917207057471" className="text-gold hover:text-gold-light no-underline">+91 7207057471</a></> },
-                    { icon:'✉️', label:'Email', val:<><a href="mailto:contact@ustaxfiler.com" className="text-gold hover:text-gold-light no-underline">contact@ustaxfiler.com</a><br/><a href="mailto:vijay@ustaxfiler.com" className="text-gold/70 hover:text-gold-light no-underline text-xs">vijay@ustaxfiler.com</a></> },
+                    { icon:'📍', label:'Office Address', val:<>1333 Corporate Dr Suite 266 Irving, TX 75038</> },
+                    { icon:'📞', label:'US Phone', val:<a href="tel:+1 (469) 231-9102" className="text-gold hover:text-gold-light no-underline">+1 (469) 231-9102</a> },
+                    
+                    { icon:'✉️', label:'Email', val:<><a href="mailto:Taxyogchaudhary@gmail.com" className="text-gold hover:text-gold-light no-underline">Taxyogchaudhary@gmail.com</a><br/></> },
                     { icon:'🕐', label:'Business Hours', val:'10:30 AM – 7:30 PM CST, Mon–Fri' },
                   ].map(item=>(
                     <div key={item.label} className="flex gap-4">
@@ -84,7 +84,7 @@ export default function Contact() {
                   ))}
                 </div>
 
-                <a href="https://wa.me/+919121157586" target="_blank" rel="noreferrer"
+                <a href="https://wa.me/+1 (469) 231-9102" target="_blank" rel="noreferrer"
                   className="flex items-center justify-center gap-2 mt-10 bg-[#25D366] text-white font-bold py-3 rounded-xl no-underline hover:opacity-90 transition-opacity text-sm">
                   💬 Chat on WhatsApp
                 </a>
@@ -108,16 +108,7 @@ export default function Contact() {
                     <h3 className="font-display text-navy text-2xl font-bold mb-1">Get in Touch</h3>
                     <p className="text-gray-400 text-sm mb-8">Free consultation — no obligation whatsoever.</p>
 
-                    {/* Query type toggle */}
-                    <div className="flex gap-3 mb-6">
-                      {['General','Tax Specific Question'].map(t=>(
-                        <button key={t} onClick={()=>setForm({...form,type:t})}
-                          className={`px-4 py-2 rounded-lg text-xs font-semibold border-2 transition-all cursor-pointer font-body
-                            ${form.type===t ? 'bg-navy text-white border-navy' : 'bg-white text-gray-500 border-gray-200 hover:border-navy hover:text-navy'}`}>
-                          {t}
-                        </button>
-                      ))}
-                    </div>
+                    
 
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
                       <div>
@@ -139,20 +130,7 @@ export default function Contact() {
                         <label className="block text-xs font-semibold text-navy mb-1.5">Phone Number</label>
                         <input type="tel" placeholder="+1 (555) 000-0000" value={form.phone} onChange={change('phone')} className="form-input" />
                       </div>
-                      <div>
-                        <label className="block text-xs font-semibold text-navy mb-1.5">Service Required</label>
-                        <select value={form.service} onChange={change('service')} className="form-input">
-                          <option value="">Select a service</option>
-                          <option>Individual Tax Filing</option>
-                          <option>Business Tax Filing</option>
-                          <option>ITIN Application</option>
-                          <option>FBAR / FATCA</option>
-                          <option>Indian Tax Filing</option>
-                          <option>Audit Representation</option>
-                          <option>Amendment</option>
-                          <option>Other</option>
-                        </select>
-                      </div>
+                 
                     </div>
 
                     <div className="mb-6">
@@ -173,28 +151,8 @@ export default function Contact() {
         </div>
       </section>
 
-      {/* ════ FAQ ════ */}
-      <section className="py-24 bg-slate-50">
-        <div className="max-w-3xl mx-auto px-6">
-          <div className="section-tag">FAQ</div>
-          <h2 className="text-navy font-display text-4xl font-bold mb-14">Frequently Asked Questions</h2>
-          {FAQS.map((f,i) => <FAQItem key={i} {...f} />)}
-        </div>
-      </section>
-
-      {/* ════ MAP PLACEHOLDER ════ */}
-      <section className="py-24">
-        <div className="max-w-7xl mx-auto px-6">
-          <h2 className="text-navy font-display text-3xl font-bold mb-8 text-center">Find Us</h2>
-          <div className="bg-gradient-to-br from-navy to-navy-light rounded-3xl overflow-hidden h-72 flex items-center justify-center">
-            <div className="text-center text-white">
-              <div className="text-5xl mb-4">📍</div>
-              <p className="font-display text-xl font-bold">Hitech City - JNTU Road</p>
-              <p className="text-white/60 text-sm mt-1">Manjeera Commercial, Hyderabad, Telangana - 500072</p>
-            </div>
-          </div>
-        </div>
-      </section>
+     
+     
 
     </div>
   );
