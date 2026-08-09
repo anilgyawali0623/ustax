@@ -12,8 +12,8 @@ const VALUES = [
 ];
 
 const SERVICES = [
-  { icon: '👤', title: 'US Individual Tax Services', desc: 'Federal, State and Local Tax Filing · FBAR and FATCA Services · Representation Services', href: '/services#individual' },
-  { icon: '🏢', title: 'US Business Tax Services', desc: 'Tax Planning and Filing Strategies For Small and Medium Business Enterprises', href: '/services#business' },
+  { icon: '👤', title: ' Individual Tax Services', desc: 'Federal, State and Local Tax Filing · FBAR and FATCA Services · Representation Services', href: '/services#individual' },
+  { icon: '🏢', title: ' Business Tax Services', desc: 'Tax Planning and Filing Strategies For Small and Medium Business Enterprises', href: '/services#business' },
 
 ];
 

@@ -4,7 +4,7 @@ import { Link, useLocation } from 'react-router-dom';
 const INDIVIDUAL_LIST = [
   'Strategic Tax Planning For Individuals',
   'Federal, State and Local Income Tax Return Preparation',
-  'Tax Planning and Preparation of US Expatriate Returns',
+  'Tax Planning and Preparation of  Expatriate Returns',
   'ITIN (Form W7) Services',
   'E-Filing / Paper Filing',
   'Alternative Minimum Tax Planning',
@@ -31,10 +31,13 @@ const INDIA_LIST = [
 ];
 
 const TABS = [
-  { id: 'individual', label: '👤 US Individual Tax' },
-  { id: 'business',   label: '🏢 US Business Tax' },
+  { id: 'individual', label: '👤 Individual Tax' },
+  { id: 'business',   label: '🏢  Business Tax' },
   { id: 'itin',       label: '🪪 ITIN Services' },
   { id: 'fbar',       label: '📊 FBAR / FATCA' },
+  { id: 'insurance',       label: '📊 Insurance' },
+  {id:"transportation", label:"🚗 Transportation"},
+
 
 ];
 
@@ -85,11 +88,11 @@ export default function Services() {
             <div className="grid grid-cols-1 lg:grid-cols-5 gap-12">
               <div className="lg:col-span-3">
                 <div className="section-tag">Individual Tax</div>
-                <h2 className="text-navy font-display text-3xl font-bold mb-2">US Individual Tax Services</h2>
+                <h2 className="text-navy font-display text-3xl font-bold mb-2"> Individual Tax Services</h2>
                 <h3 className="text-navy-light font-display text-xl mb-4">Federal, State And Local Tax Filing Services</h3>
                 <div className="space-y-4 text-gray-600 text-sm leading-relaxed mb-6">
-                  <p>UsTaxFiler® is a dedicated tax filing company, a registered Electronic Return Originator (ERO) with the IRS and governed by Circular 230 of IRS Rules.</p>
-                  <p>The main distinct of UsTaxFiler®, when compared to other tax consultants in the industry, is to carry out the preparation and filing only by the Tax Professionals and the tax returns are thoroughly studied and conducts multi-level accuracy reviews before they actually get filed.</p>
+                  <p>TaxYogaSolution® is a dedicated tax filing company, a registered Electronic Return Originator (ERO) with the IRS and governed by Circular 230 of IRS Rules.</p>
+                  <p>The main distinct of TaxYogaSolution®, when compared to other tax consultants in the industry, is to carry out the preparation and filing only by the Tax Professionals and the tax returns are thoroughly studied and conducts multi-level accuracy reviews before they actually get filed.</p>
                   <p>We assure 100% accuracy in the tax preparation as all the tax returns are prepared only by the qualified professionals.</p>
                 </div>
                 <h4 className="text-navy font-semibold mb-3 font-body">Services offered with respect to Individual Tax Filing:</h4>
@@ -118,12 +121,40 @@ export default function Services() {
             </div>
           )}
 
+{
+  tab==='insurance' && (
+    <div>
+      <div className="section-tag">Insurance Services</div>
+      <h2 className="text-navy font-display text-3xl font-bold mb-2">Insurance Services</h2>
+      <p className="text-gray-600 text-sm leading-relaxed max-w-2xl mb-12">We provide comprehensive insurance services to help you protect your assets and plan for the future.</p>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="service-card">
+          <div className="service-icon-box">🏥</div>
+          <h4 className="font-display text-navy text-lg font-bold mb-2">Health Insurance</h4>
+          <p className="text-gray-500 text-sm leading-relaxed">We offer a range of health insurance plans to suit your needs and budget, ensuring you have access to quality healthcare.</p>
+        </div>
+        <div className="service-card">
+          <div className="service-icon-box">🚗</div>
+          <h4 className="font-display text-navy text-lg font-bold mb-2">Auto Insurance</h4>
+          <p className="text-gray-500 text-sm leading-relaxed">Protect your vehicle with our comprehensive auto insurance policies, providing coverage for accidents, theft, and more.</p>
+        </div>
+        <div className="service-card">
+          <div className="service-icon-box">🏠</div>
+          <h4 className="font-display text-navy text-lg font-bold mb-2">Home Insurance</h4>
+          <p className="text-gray-500 text-sm leading-relaxed">Protect your home and belongings with our comprehensive home insurance policies, providing coverage for damages, theft, and more.</p>
+        </div>
+      </div>
+    </div>
+  )}
+
+  
+            
           {/* ── BUSINESS ── */}
           {tab==='business' && (
             <div>
               <div className="section-tag">Business Tax</div>
-              <h2 className="text-navy font-display text-3xl font-bold mb-2">US Business Tax Services</h2>
-              <p className="text-gray-600 text-sm leading-relaxed max-w-2xl mb-12">UsTaxFiler provide Tax Filing and Planning Strategies for business enterprises of all types and sizes.</p>
+              <h2 className="text-navy font-display text-3xl font-bold mb-2">Business Tax Services</h2>
+              <p className="text-gray-600 text-sm leading-relaxed max-w-2xl mb-12">YogaTaxSolution provide Tax Filing and Planning Strategies for business enterprises of all types and sizes.</p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 {BUSINESS_TYPES.map(b=>(
                   <div key={b.t} className="service-card">
@@ -161,13 +192,13 @@ export default function Services() {
                     <div className="why-icon">📝</div>
                     <div>
                       <h4 className="font-display text-navy font-bold mb-1.5">How to Apply</h4>
-                      <p>An ITIN application (Form W7) shall be attached to the Federal Tax Return only. UsTaxFiler provides a seamless and effortless procedure to obtain your ITIN.</p>
+                      <p>An ITIN application (Form W7) shall be attached to the Federal Tax Return only. TaxYogaSolution provides a seamless and effortless procedure to obtain your ITIN.</p>
                     </div>
                   </div>
                 </div>
                 <div className="bg-navy rounded-2xl p-8 text-white">
                   <h4 className="font-display text-xl font-bold mb-4">ITIN Application Process</h4>
-                  {['Submit your documents to UsTaxFiler','We prepare your Form W7 application','Application attached to your Federal Tax Return','ITIN issued by IRS (6–8 weeks)','Start filing your US taxes'].map((s,i)=>(
+                  {['Submit your documents to UsTaxFiler','We prepare your Form W7 application','Application attached to your Federal Tax Return','ITIN issued by IRS (6–8 weeks)','Start filing your  taxes'].map((s,i)=>(
                     <div key={i} className="flex gap-4 mb-5 last:mb-0">
                       <div className="w-7 h-7 rounded-full bg-gold text-navy text-xs font-bold flex items-center justify-center flex-shrink-0 mt-0.5">{i+1}</div>
                       <p className="text-white/75 text-sm">{s}</p>
@@ -188,7 +219,7 @@ export default function Services() {
                 <div className="service-card">
                   <div className="service-icon-box">🏦</div>
                   <h4 className="font-display text-navy text-xl font-bold mb-3">FBAR (Foreign Bank Account Reporting)</h4>
-                  <p className="text-gray-600 text-sm leading-relaxed mb-4">All US Citizens and Residents who have a financial interest in or signature authority over any financial account in a foreign country and if the aggregate value of these accounts together exceed <strong>$10,000</strong> at any time during the tax year, then it is mandatory to file FBAR with IRS.</p>
+                  <p className="text-gray-600 text-sm leading-relaxed mb-4">All  Citizens and Residents who have a financial interest in or signature authority over any financial account in a foreign country and if the aggregate value of these accounts together exceed <strong>$10,000</strong> at any time during the tax year, then it is mandatory to file FBAR with IRS.</p>
                   <div className="bg-gold-pale rounded-xl p-4">
                     <p className="text-yellow-800 text-xs font-semibold">Filed using: FinCEN Form 114</p>
                   </div>

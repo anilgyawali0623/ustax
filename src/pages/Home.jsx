@@ -68,17 +68,17 @@ const WHY = [
 
 const TESTIMONIALS = [
   {
-    text: "UsTaxFiler has been helping us filing taxes for the last 4 years, they have been extremely professional, helpful and patient in answering all the tax related questions. I highly recommend to anyone who wants to file taxes.",
+    text: "YogaTaxSolutionhas been helping us filing taxes for the last 4 years, they have been extremely professional, helpful and patient in answering all the tax related questions. I highly recommend to anyone who wants to file taxes.",
     author: "Ram Shankar",
     loc: "Atlanta, GA",
   },
   {
-    text: "My tax return is little complex as we have LLC and employee stock options too, exceptionally done by UsTaxFiler and very satisfied with their approach and knowledge, the process was smooth and done on time.",
+    text: "My tax return is little complex as we have LLC and employee stock options too, exceptionally done by YogaTaxSolutionand very satisfied with their approach and knowledge, the process was smooth and done on time.",
     author: "Dipankar Balasubramanian",
     loc: "San Jose, CA",
   },
   {
-    text: "I am a student from Nepal and UsTaxFiler has been filing my tax returns for the last 3 years, they are masters in US Taxation and very good in handling student tax returns. Thanks so much! You were very helpful and put my mind at ease!",
+    text: "I am a student from Nepal and YogaTaxSolutionhas been filing my tax returns for the last 3 years, they are masters in US Taxation and very good in handling student tax returns. Thanks so much! You were very helpful and put my mind at ease!",
     author: "Agharna Battacharya",
     loc: "Houston, TX",
   },
