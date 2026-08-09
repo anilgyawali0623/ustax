@@ -3,16 +3,16 @@ import transporter from '../utils/mail.js';
 export const sendContactEmail = async (req, res) => {
      console.log("Received contact email request:", req.body);
   try {
-    const { fullName, email, phone, message } = req.body; 
+    const { name, email, phone, message } = req.body; 
 
-    if (!fullName || !email || !phone || !message) {
+    if (!name || !email || !phone || !message) {
       return res.status(400).json({ error: 'All fields are required' });
     }
 
     const mailOptions = {
       from: email,
       to: process.env.EMAIL_USER,
-      subject: `New Contact Message from ${fullName}`,
+      subject: `New Contact Message from ${name}`,
       html: `
   <div style="font-family: Arial, sans-serif; background:#f4f6f8; padding:20px;">
     
@@ -33,7 +33,7 @@ export const sendContactEmail = async (req, res) => {
         <table style="width:100%; border-collapse:collapse; font-size:14px;">
           <tr>
             <td style="padding:10px 0; color:#374151;"><strong>Full Name:</strong></td>
-            <td style="padding:10px 0; color:#111827;">${fullName}</td>
+            <td style="padding:10px 0; color:#111827;">${name}</td>
           </tr>
           <tr>
             <td style="padding:10px 0; color:#374151;"><strong>Email Address:</strong></td>
