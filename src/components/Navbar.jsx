@@ -51,8 +51,8 @@ export default function Navbar() {
             </Link>
             {servicesOpen && (
               <div className="absolute top-full left-0 bg-white border border-gray-100 rounded-xl shadow-card-lg min-w-[220px] py-2 z-50 animate-[fadeDown_0.15s_ease]">
-                <Link to="/services#individual" className="dropdown-link" onClick={close}>US Individual Tax Services</Link>
-                <Link to="/services#business" className="dropdown-link" onClick={close}>US Business Tax Services</Link>
+                <Link to="/services#individual" className="dropdown-link" onClick={close}> Individual Tax Services</Link>
+                <Link to="/services#business" className="dropdown-link" onClick={close}> Business Tax Services</Link>
               </div>
             )}
           </li>
