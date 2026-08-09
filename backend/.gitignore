@@ -1,0 +1,76 @@
+# ----------------------
+# Node modules
+# ----------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.package-lock.json
+# ----------------------
+# Environment variables
+# ----------------------
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ----------------------
+# Build folders
+# ----------------------
+/build
+/dist
+/out
+
+# ----------------------
+# Logs
+# ----------------------
+logs
+*.log
+
+# ----------------------
+# OS files
+# ----------------------
+.DS_Store
+Thumbs.db
+
+# ----------------------
+# IDE / Editor files
+# ----------------------
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# ----------------------
+# Cache
+# ----------------------
+.cache/
+.parcel-cache/
+
+# ----------------------
+# Testing
+# ----------------------
+coverage/
+
+# ----------------------
+# Misc
+# ----------------------
+*.pem
+*.pid
+*.seed
+*.pid.lock
+
+# ----------------------
+# Optional (if using TypeScript)
+# ----------------------
+*.tsbuildinfo
+
+# ----------------------
+# Optional (uploads / temp files)
+# ----------------------
+uploads/
+tmp/
+temp/
