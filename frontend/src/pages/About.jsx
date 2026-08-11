@@ -22,7 +22,7 @@ const attorneys = [
     name: "Yog Chaudhary",
     title:
       "Former IRS Tax Examination Technician | MS in Data Analytics & AI | MBA Finance & Accounting | CPA Candidate",
-    bio: "Yog Chaudhary brings strong expertise with nearly 10+ years of experience across Nepal and the United States in taxation, accounting, finance, and data analytics, supported by professional experience at the Former Internal Revenue Service (IRS) in Austin, Texas. He specializes in tax preparation, IRS compliance, bookkeeping, and data-driven financial solutions for individuals and businesses.",
+    bio: "Yog Chaudhary brings strong expertise with nearly 12+ years of experience across Nepal and the United States in taxation, accounting, finance, and data analytics, supported by professional experience at the Former Internal Revenue Service (IRS) in Austin, Texas. He specializes in tax preparation, IRS compliance, bookkeeping, and data-driven financial solutions for individuals and businesses.",
     education:
       "He holds an M.S. in Advanced Data Analytics & Artificial Intelligence Engineering from the University of North Texas and an MBA in Finance & Accounting from Tribhuvan University and is a CPA candidate with the Texas State Board of Public Accountancy.",
     email: "yogataxchaudhary@gmail.com",
@@ -34,7 +34,11 @@ const attorneys = [
   {
     name: "Himalaya Budhathoki (Himal)",
     title: "CPA | CA | CMA | MSA | Tax & Financial Advisor",
-    bio: "Himalaya Budhathoki is a highly experienced accounting and finance professional with nearly 20+ years of international expertise in tax, audit, and financial management across the U.S., Nepal, India, and Qatar. He holds multiple professional credentials, including CPA (AICPA, Colorado), Chartered Accountant (ICAI & ICAN), CMA (IMA), and MS in Accounting (Western Governors University). His expertise includes tax planning, audit & assurance, financial reporting, SOX compliance, and strategic financial advisory for individuals, businesses, and high-net-worth clients.",
+    bio: `Himalaya Budhathoki is a highly experienced accounting and finance professional with nearly 21+ years of international expertise in tax, audit, and financial management across the U.S., Nepal, India, and Qatar. He holds multiple professional credentials, including CPA (AICPA, Colorado), Chartered Accountant (ICAI & ICAN), CMA (IMA), and MS in Accounting (Western Governors University). 
+    
+    `,
+    education:
+    "His expertise includes tax planning, audit & assurance, financial reporting, SOX compliance, and strategic financial advisory for individuals, businesses, and high-net-worth clients.",
     email: "himalb@hbudhacpa.com",
     phone: "+1 (619) 636-7988",
     website: "budhacpa.com",
@@ -51,19 +55,61 @@ export default function About() {
 
       {/* ════ PAGE HERO ════ */}
       <div className="page-hero">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="flex items-center justify-center gap-2 text-white/50 text-xs mb-4">
-            <Link to="/" className="text-white/50 hover:text-gold no-underline transition-colors">Home</Link>
-            <span className="text-gold">/</span>
-            <span className="text-white">About Us</span>
-          </div>
-          <h1 className="text-white font-display text-5xl font-bold mb-4">About YogaTaxSolution</h1>
-          <p className="text-white/65 text-lg max-w-xl mx-auto">A dedicated US Tax Filing Company formed by professionals in the year 2025.</p>
-        </div>
+       
+<div className="mx-auto px-6">
+  <div className="flex items-center justify-center gap-2 text-white/50 text-xs">
+    <Link
+      to="/"
+      className="text-white/50 hover:text-gold no-underline transition-colors"
+    >
+      Home
+    </Link>
+
+    <span className="text-gold">/</span>
+
+    <span className="text-white">About Us</span>
+  </div>
+
+  <div className="text-white/65 text-base md:text-lg max-w-3xl mx-auto mt-4 space-y-3 leading-relaxed">
+    <p>
+      It is a
+      dedicated tax filing company, a registered Electronic Return Originator
+      (ERO) with the IRS and governed by Circular 230 of IRS Rules.
+    </p>
+
+    <p>
+      It provides
+      professional tax and accounting services with a personalized approach
+      tailored to the needs of individuals and businesses. We specialize in
+      tax preparation, bookkeeping, financial reporting, financial management,
+      data analysis, and IRS e-filing.
+    </p>
+
+    <p>
+      Our data-driven approach helps clients understand their finances, make
+      informed decisions, improve financial performance, and plan for
+      long-term success. We also provide business advisory services designed
+      to support growth, strengthen financial management, and help businesses
+      achieve their goals.
+    </p>
+
+  
+
+    <p>
+      We are committed to providing{" "}
+      <span className="text-white font-medium">
+        accurate, reliable, transparent, and personalized service
+      </span>{" "}
+      while maintaining the highest standards of professionalism and integrity.
+    </p>
+  </div>
+</div>
+
+
       </div>
 
       {/* ════ ABOUT INTRO ════ */}
-      <section className="py-24">
+      <section className="py-20">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
 
@@ -81,11 +127,7 @@ export default function About() {
               <div className="section-tag">Our Story</div>
               <h2 className="text-navy font-display text-3xl font-bold mb-6">Trusted Tax Professionals Since 2025</h2>
               <div className="space-y-4 text-gray-600 text-sm leading-relaxed">
-               YogaTax Solution was founded on the principle of making tax and accounting services simple, transparent, and reliable. With hands-on experience at the Internal Revenue Service (IRS) as a Tax Examination Technician in Austin, TX, we understand the complexities of tax regulations and compliance.
-
-
-
-Our goal is to bridge the gap between complex financial rules and everyday clients by offering clear guidance, accurate services, and personalized support. We are committed to helping clients stay compliant, save money, and achieve financial success.
+             YogaTax Solution provides simple, transparent, and reliable tax and accounting services. We understand complex tax regulations and provide accurate, personalized guidance to help clients stay compliant, save money, and achieve financial success.
 
               </div>
               <div className="mt-8">
@@ -109,7 +151,7 @@ Our goal is to bridge the gap between complex financial rules and everyday clien
       </section> */}
 
       {/* ════ MEET OUR TEAM ════ */}
-      <section className="py-24 bg-slate-50">
+      <section className="py-16 bg-slate-50">
         <div className="max-w-7xl mx-auto px-6">
           <div className="section-tag">Our Team</div>
           <h2 className="text-navy font-display text-4xl font-bold mb-4">Meet Our Team</h2>

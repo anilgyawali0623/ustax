@@ -110,7 +110,7 @@ export default function Contact() {
     setErrors({});
     setForm({ name: "", email: "", phone: "", message: "" });
   };
- console.log("Contact page rendered", form, errors, status);
+  console.log("Contact page rendered", form, errors, status);
   return (
     <div>
       {/* ════ PAGE HERO ════ */}
@@ -156,7 +156,9 @@ export default function Contact() {
                     {
                       icon: "📍",
                       label: "Office Address",
-                      val: <>1333 Corporate Dr Suite 266 Irving, TX 75038</>,
+                      val: (
+                        <>5601 Executive Drive, Suite # 500 Irving, TX, 75038</>
+                      ),
                     },
                     {
                       icon: "📞",
