@@ -34,7 +34,7 @@ const attorneys = [
   {
     name: "Himalaya Budhathoki (Himal)",
     title: "CPA | CA | CMA | MSA | Tax & Financial Advisor",
-    bio: `Himalaya Budhathoki is a highly experienced accounting and finance professional with nearly 21+ years of international expertise in tax, audit, and financial management across the U.S., Nepal, India, and Qatar. He holds multiple professional credentials, including CPA (AICPA, Colorado), Chartered Accountant (ICAI & ICAN), CMA (IMA), and MS in Accounting (Western Governors University). 
+    bio: `Himalaya Budhathoki is a highly experienced accounting and finance professional with nearly 21+ years of international expertise in tax, audit, and financial management across the U.S., Nepal, India, and Qatar. He holds multiple professional credentials, including CPA (AICPA, Colorado), Chartered Accountant (ICAI & ICAN), CMA (IMA), and MS in Accounting from Western Governors University.
     
     `,
     education:
@@ -70,39 +70,35 @@ export default function About() {
     <span className="text-white">About Us</span>
   </div>
 
-  <div className="text-white/65 text-base md:text-lg max-w-3xl mx-auto mt-4 space-y-3 leading-relaxed">
-    <p>
-      It is a
-      dedicated tax filing company, a registered Electronic Return Originator
-      (ERO) with the IRS and governed by Circular 230 of IRS Rules.
-    </p>
+  <div className="text-white/65 text-base md:text-lg max-w-3xl mx-auto mt-4 space-y-3 leading-relaxed text-left">
+  <p>
+    It is a dedicated tax filing company, a registered Electronic Return
+    Originator (ERO) with the IRS and governed by Circular 230 of IRS Rules.
+  </p>
 
-    <p>
-      It provides
-      professional tax and accounting services with a personalized approach
-      tailored to the needs of individuals and businesses. We specialize in
-      tax preparation, bookkeeping, financial reporting, financial management,
-      data analysis, and IRS e-filing.
-    </p>
+  <p>
+    It provides professional tax and accounting services with a personalized
+    approach tailored to the needs of individuals and businesses. We specialize
+    in tax preparation, bookkeeping, financial reporting, financial management,
+    data analysis, and IRS e-filing.
+  </p>
 
-    <p>
-      Our data-driven approach helps clients understand their finances, make
-      informed decisions, improve financial performance, and plan for
-      long-term success. We also provide business advisory services designed
-      to support growth, strengthen financial management, and help businesses
-      achieve their goals.
-    </p>
+  <p>
+    Our data-driven approach helps clients understand their finances, make
+    informed decisions, improve financial performance, and plan for long-term
+    success. We also provide business advisory services designed to support
+    growth, strengthen financial management, and help businesses achieve their
+    goals.
+  </p>
 
-  
-
-    <p>
-      We are committed to providing{" "}
-      <span className="text-white font-medium">
-        accurate, reliable, transparent, and personalized service
-      </span>{" "}
-      while maintaining the highest standards of professionalism and integrity.
-    </p>
-  </div>
+  <p>
+    We are committed to{" "}
+    <span className="text-white font-medium">
+      accurate, reliable, transparent, and personalized service
+    </span>{" "}
+    while maintaining the highest standards of professionalism and integrity.
+  </p>
+</div>
 </div>
 
 
