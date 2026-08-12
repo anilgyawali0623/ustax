@@ -19,7 +19,7 @@ const SERVICES = [
   {
     icon: "🪪",
     title: "Apply for ITIN",
-    desc: "Seamless and Effortless Procedure to get ITIN for Spouse and Dependents through US Tax Filer.",
+    desc: "Seamless and Effortless Procedure to get ITIN for Spouse and Dependents through YogaTax Solution.",
   },
   {
     icon: "🛡️",

@@ -4,7 +4,7 @@ import axios from "axios";
 
 const FAQS = [
   {
-    q: "How do I get started with UsTaxFiler?",
+    q: "How do I get started with YogaTax Solution?",
     a: "Simply fill out the contact form or call/WhatsApp us. We'll schedule a free consultation to understand your tax situation and provide a free quote.",
   },
   {

@@ -396,7 +396,7 @@ export default function Services() {
                 </div>
                 <div className="bg-navy rounded-2xl p-8 text-white">
                   <h4 className="font-display text-xl font-bold mb-4">ITIN Application Process</h4>
-                  {['Submit your documents to UsTaxFiler','We prepare your Form W7 application','Application attached to your Federal Tax Return','ITIN issued by IRS (6–8 weeks)','Start filing your  taxes'].map((s,i)=>(
+                  {['Submit your documents to YogaTax Solution','We prepare your Form W7 application','Application attached to your Federal Tax Return','ITIN issued by IRS (6–8 weeks)','Start filing your  taxes'].map((s,i)=>(
                     <div key={i} className="flex gap-4 mb-5 last:mb-0">
                       <div className="w-7 h-7 rounded-full bg-gold text-navy text-xs font-bold flex items-center justify-center flex-shrink-0 mt-0.5">{i+1}</div>
                       <p className="text-white/75 text-sm">{s}</p>
