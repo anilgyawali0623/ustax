@@ -4,7 +4,7 @@ import Buddha from '../../assets/hbbuddha.webp'; // adjust path to your actual i
 
 const VALUES = [
   { icon: '🎯', title: 'Mission', desc: 'To provide quality services that exceed the expectations of our esteemed customers and make tax filing hassle-free and affordable.' },
-  { icon: '👁️', title: 'Vision', desc: 'To be the most trusted and comprehensive tax services provider for US and Indian taxpayers globally.' },
+  { icon: '👁️', title: 'Vision', desc: 'To be the most trusted and comprehensive tax services provider for Nepal taxpayers globally.' },
   { icon: '⚖️', title: 'Integrity', desc: 'We maintain the highest standards of professional ethics, transparency, and accuracy in all our work.' },
   { icon: '🤝', title: 'Client First', desc: 'Customer satisfaction is our top priority — we go above and beyond to deliver exceptional results.' },
   { icon: '📚', title: 'Expertise', desc: 'Our team of qualified professionals brings decades of combined experience to every tax return we file.' },
@@ -70,34 +70,18 @@ export default function About() {
     <span className="text-white">About Us</span>
   </div>
 
-  <div className="text-white/65 text-base md:text-lg max-w-3xl mx-auto mt-4 space-y-3 leading-relaxed text-left">
-  <p>
-    It is a dedicated tax filing company, a registered Electronic Return
-    Originator (ERO) with the IRS and governed by Circular 230 of IRS Rules.
-  </p>
+  <div className="text-white/65 text-base md:text-lg max-w-4xl mx-auto mt-4 space-y-3 leading-relaxed text-left">
+ 
+ <p>
+  YogaTax Solution is a dedicated tax filing company and a registered Electronic Return Originator (ERO) with the IRS, operating in accordance with IRS Circular 230.
+<br/>
+We provide personalized tax and accounting services for individuals and businesses, including tax preparation, bookkeeping, payroll, financial reporting, data analysis, and IRS e-filing. 
+<br/>
+<p className="mt-2">
 
-  <p>
-    It provides professional tax and accounting services with a personalized
-    approach tailored to the needs of individuals and businesses. We specialize
-    in tax preparation, bookkeeping, financial reporting, financial management,
-    data analysis, and IRS e-filing.
-  </p>
-
-  <p>
-    Our data-driven approach helps clients understand their finances, make
-    informed decisions, improve financial performance, and plan for long-term
-    success. We also provide business advisory services designed to support
-    growth, strengthen financial management, and help businesses achieve their
-    goals.
-  </p>
-
-  <p>
-    We are committed to{" "}
-    <span className="text-white font-medium">
-      accurate, reliable, transparent, and personalized service
-    </span>{" "}
-    while maintaining the highest standards of professionalism and integrity.
-  </p>
+Our goal is to deliver accurate, reliable, and transparent solutions that support informed financial decisions and long-term success.
+</p>
+ </p>
 </div>
 </div>
 

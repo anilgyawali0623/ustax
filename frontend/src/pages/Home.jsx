@@ -131,22 +131,20 @@ export default function Home() {
 
         <div className="relative z-10 max-w-7xl mx-auto px-6 py-20">
           <div className="max-w-2xl">
-            <p className="text-white/75 text-lg leading-relaxed mb-10 max-w-xl">
+            <p className="text-white/75 text-lg leading-relaxed mb-10 ">
               YogaTax Solution provides professional tax and accounting services
-              with a personalized approach. We specialize in tax preparation,
-              financial reporting, and data-driven insights to help clients make
-              smart financial decisions. Founded by a former Internal Revenue
-              Service Tax Examination Technician and a CPA candidate with the
-              Texas State Board of Public Accountancy, we bring trusted
-              expertise, accuracy, and integrity to every client.YogaTax
-              Solution is dedicated to delivering professional accounting and
-              tax services with a personalized approach. With strong experience
-              in tax preparation, financial reporting, data analysis,
-              bookkeeping, financial management and IRS e-filing, we help
-              individuals and businesses make informed financial decisions with
-              confidence. We also provide business advisory services to support
-              growth, improve financial performance, and ensure long-term
+              for individuals and businesses. <br/>Founded by a former IRS Tax
+              Examination Technician and a CPA candidate with the Texas State
+              Board of Public Accountancy, we specialize in tax preparation,
+              bookkeeping, payroll, financial reporting, data analysis, and IRS
+              e-filing. <br/>
+               <p className="mt-2">
+              We combine expertise, accuracy, and integrity to help
+                
+              clients make informed financial decisions and achieve long-term
               success.
+               </p>
+
             </p>
 
             <div className="flex flex-wrap gap-4 mb-14">
@@ -221,7 +219,6 @@ export default function Home() {
           <h2 className="text-navy font-display text-4xl font-bold mb-3">
             Our Core Services
           </h2>
-         
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {SERVICES.map((s) => (
@@ -246,16 +243,12 @@ export default function Home() {
       </section>
 
       {/* ════ WHY US ════ */}
-      
 
       {/* ════ STATS BAND ════ */}
-     
 
       {/* ════ RESOURCES ════ */}
-      
 
       {/* ════ TESTIMONIALS ════ */}
-   
 
       {/* ════ CTA BANNER ════ */}
       <section className="bg-gold py-20">

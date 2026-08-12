@@ -62,7 +62,7 @@ const BUSINESS_TYPES = [
 
         <ul className="space-y-1">
           <li>
-            <strong>Form 1065</strong> – U.S. Return of Partnership Income
+            <strong>Form 1065</strong> –  Return of Partnership Income
           </li>
           <li>
             <strong>Schedule K-1 (Form 1065)</strong> – Partner’s Share of
@@ -97,7 +97,7 @@ const BUSINESS_TYPES = [
 
         <ul className="space-y-1">
           <li>
-            <strong>Form 1120-S</strong> – U.S. Income Tax Return for an
+            <strong>Form 1120-S</strong> –  Income Tax Return for an
             S Corporation
           </li>
           <li>
@@ -133,7 +133,7 @@ const BUSINESS_TYPES = [
 
         <ul className="space-y-1">
           <li>
-            <strong>Form 1120</strong> – U.S. Corporation Income Tax Return
+            <strong>Form 1120</strong> –  Corporation Income Tax Return
           </li>
           <li>
             <strong>Form 1120-W</strong> – Estimated Tax for Corporations,
@@ -451,30 +451,30 @@ export default function Services() {
         </h4>
 
         <p className="text-gray-600 text-sm leading-relaxed mb-4">
-          Certain U.S. taxpayers must report specified foreign financial assets
-          on <strong>IRS Form 8938</strong> when applicable thresholds are met.
-          Thresholds vary by <strong>filing status and residency</strong>.
+          Certain taxpayers must report specified foreign financial assets
+          on IRS Form 8938 when applicable thresholds are met.
+          Thresholds vary by filing status and residency.
         </p>
 
         <ul className="space-y-2 text-gray-600 text-sm leading-relaxed">
           <li className="flex items-start gap-2">
             <span className="text-gold">•</span>
             <span>
-              <strong>Unmarried or Single</strong>
+              Unmarried or Single
             </span>
           </li>
 
           <li className="flex items-start gap-2">
             <span className="text-gold">•</span>
             <span>
-              <strong>Married Filing Jointly</strong>
+              Married Filing Jointly
             </span>
           </li>
 
           <li className="flex items-start gap-2">
             <span className="text-gold">•</span>
             <span>
-              <strong>Married Filing Separately</strong>
+              Married Filing Separately
             </span>
           </li>
         </ul>
@@ -540,7 +540,7 @@ export default function Services() {
         <p className="text-gray-600 text-sm leading-relaxed">
           YogaTax Solution provides professional support and representation for
           clients facing IRS audits, notices, and tax matters. With proper
-          authorization through <strong>Form 2848 (Power of Attorney)</strong>,
+          authorization through Form 2848 (Power of Attorney),
           eligible tax professionals may represent clients (appointing our
           Enrolled Agent or CPA to represent the case) before the IRS and assist
           with responding to tax inquiries and resolving tax issues.
