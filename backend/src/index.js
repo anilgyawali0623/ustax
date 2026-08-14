@@ -20,14 +20,3 @@ app.use("/api", contactEmailRoute);
 app.use("/api/test", (req, res) => {
   res.json({ message: "API is working!" });
 });
-
-app.listen(port, () => {
-  console.log(`Server is running on http://localhost:${port}`);
-});
-console.log(
-  "Server setup complete",
-  process.env.EMAIL_USER,
-  process.env.EMAIL_PASS,
-);
-
-console.log("fasgasg");
