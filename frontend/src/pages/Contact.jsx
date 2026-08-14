@@ -93,7 +93,7 @@ export default function Contact() {
     try {
       console.log("Submitting contact form:");
       const res = await axios.post(
-        `${import.meta.env.VITE_API_URL}/api/send-email`,
+        `${import.meta.env.VITE_API_URL}/api/contact`,
         data,
       );
       console.log("Contact form submission response:", res);
