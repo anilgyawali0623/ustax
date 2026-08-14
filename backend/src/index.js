@@ -20,3 +20,7 @@ app.use("/api", contactEmailRoute);
 app.use("/api/test", (req, res) => {
   res.json({ message: "API is working!" });
 });
+app.listen(port, () => {
+  console.log(`Server is running on http://localhost:${port}`);
+})
+
