@@ -188,9 +188,9 @@ export default function About() {
           <h2 className="text-navy font-display text-4xl font-bold mb-4">
             Meet Our Team
           </h2>
-          <p className="text-gray-500 max-w-2xl mb-14">
+          <p className="text-gray-500 max-w-3xl mb-14">
             Credentialed professionals with decades of combined experience
-            across the USA, Nepal
+            across the USA and Nepal.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
