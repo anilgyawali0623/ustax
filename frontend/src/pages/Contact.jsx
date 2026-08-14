@@ -94,7 +94,7 @@ export default function Contact() {
       console.log("Submitting contact form:");
       const res = await axios.post(
         `${import.meta.env.VITE_API_URL}/api/contact`,
-        data,
+        form,
       );
       console.log("Contact form submission response:", res);
       if (res.status === 200) {
