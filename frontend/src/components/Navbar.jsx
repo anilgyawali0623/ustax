@@ -16,9 +16,7 @@ export default function Navbar() {
         {/* Logo */}
         <Link to="/" className="flex items-center gap-2 no-underline" onClick={close}>
        
-          <span className="font-display font-bold text-xl text-navy">
-          Yoga<span className="text-gold">Tax</span>Solution
-          </span>
+          <img src="../../assets/image.png" alt="Logo" className="h-24" />
         </Link>
 
         {/* Mobile toggle */}
