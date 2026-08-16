@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-
+import image1 from "../../assets/image.png";
 export default function Navbar() {
   const [servicesOpen, setServicesOpen] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
@@ -16,7 +16,7 @@ export default function Navbar() {
         {/* Logo */}
         <Link to="/" className="flex items-center gap-2 no-underline" onClick={close}>
        
-          <img src="../../assets/image.png" alt="Logo" className="h-24" />
+          <img src={image1} alt="Logo" className="h-24" />
         </Link>
 
         {/* Mobile toggle */}
