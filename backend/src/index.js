@@ -7,7 +7,7 @@ const port = 3000;
 
 app.use(
   cors({
-    origin: ["http://localhost:5173", "https://ustax-two.vercel.app"],
+    origin: ["http://localhost:5173", "https://ustax-two.vercel.app","www.yogataxsolution.com"],
     credentials: true,
   }),
 );
